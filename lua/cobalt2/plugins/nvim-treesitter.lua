@@ -108,7 +108,7 @@ Group.new("@punctuation.special", colors.dark_pink, nil, nil)
 --  NOTE: tags {{{
 --------------------------------------------------------------------------------
 Group.new("@tag", colors.yellow, nil, nil)
-Group.new("@tag.attribute", colors.dark_pink, nil, nil)
+Group.new("@tag.attribute", colors.dark_pink, nil, styles.italic)
 Group.new("@tag.delimiter", colors.blue, nil, nil)
 -- }}}
 --------------------------------------------------------------------------------
